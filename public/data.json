@@ -1,0 +1,50 @@
+[
+  {
+    "id": "01",
+    "picture": "https://i.ibb.co/0fNZMHD/5d-BAe7-Bm-Xu-Qrk-YUVj-Tuc4-YMT.png",
+    "name": "HTML",
+    "definition": "HTML (HyperText Markup Language) is the code that is used to structure a web page and its content.",
+    "age": "15-35",
+    "time": "30 Minute"
+  },
+  {
+    "id": "02",
+    "picture": "https://i.ibb.co/fH0S7MN/71324006-e266-4b71-a3af-a284b3461091.png",
+    "name": "CSS",
+    "definition": "Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML.",
+    "age": "15-35",
+    "time": "30 Minute"
+  },
+  {
+    "id": "03",
+    "picture": "https://i.ibb.co/2Y82cjW/bootstrap-guides-2x.png",
+    "name": "Bootstrap",
+    "definition": "Bootstrap is a free, open source front-end development framework for the creation of websites and web apps",
+    "age": "15-35",
+    "time": "30 Minute"
+  },
+  {
+    "id": "04",
+    "picture": "https://i.ibb.co/NKLDtSt/how-tailwind-css-help-reduce-workload-by-jefrydco-833f9b8.jpg",
+    "name": "Tailwind",
+    "definition": "Tailwind CSS makes it quicker to write and maintain the code of your application.",
+    "age": "15-35",
+    "time": "30 Minute"
+  },
+  {
+    "id": "05",
+    "picture": "https://i.ibb.co/Tg8wM87/javascript-meta-1652702081069.jpg",
+    "name": "JavaScript",
+    "definition": "JavaScript is a scripting or programming language that allows you to implement complex features on web pages.",
+    "age": "15-35",
+    "time": "1 Hours"
+  },
+  {
+    "id": "06",
+    "picture": "https://i.ibb.co/ZWkBDzK/7vx1ntk1reuhqo3tafbo.webp",
+    "name": "React",
+    "definition": "React is a declarative, efficient, and flexible JavaScript library for building user interfaces.",
+    "age": "15-35",
+    "time": "2 Hours"
+  }
+]
