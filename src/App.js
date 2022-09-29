@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <nav>
-        <div className="navbar bg-slate-50 justify-around">
+        <div className="navbar bg-slate-50 items-center justify-between  lg:justify-around">
           <h1 className=" normal-case text-2xl font-extrabold text-primary italic ml-10">Active Programmer</h1>
           <p className='text-lg font-semibold italic'>Daily practice</p>
         </div>

@@ -1,6 +1,9 @@
+import 'react-toastify/dist/ReactToastify.css';
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationPin, } from '@fortawesome/free-solid-svg-icons'
+import { toast, ToastContainer } from 'react-toastify';
+
 
 
 const CardInfo = ({ totalTime }) => {
@@ -10,6 +13,9 @@ const CardInfo = ({ totalTime }) => {
   const totalBreakTime = (time) => {
     setBreakTime(time);
   }
+  const completed = () => toast('Hurry! I completed', {
+    position: 'top-center'
+  })
 
   return (
     <div>
@@ -58,7 +64,8 @@ const CardInfo = ({ totalTime }) => {
         </div>
       </div>
       <div className=' mt-20 text-center'>
-        <button className="btn btn-primary rounded-lg mb-4">Activity Completed</button>
+        <button onClick={completed} className="activity btn btn-primary rounded-lg mb-4">Activity Completed</button>
+        <ToastContainer></ToastContainer>
       </div>
     </div>
   );
