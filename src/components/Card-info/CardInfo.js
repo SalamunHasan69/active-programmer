@@ -44,7 +44,7 @@ const CardInfo = ({ totalTime }) => {
         <h2 className='text-lg font-bold mt-14 mb-6 ml-10'>Practice Details</h2>
         <div className='flex justify-between bg-slate-100 px-7 py-4 mx-12 rounded-lg mb-4'>
           <h2 className='text-lg font-bold'>Practice time</h2>
-          <p className='font-light'>{totalTime} minutes</p>
+          <p className='font-light'>{parseFloat(totalTime)} minutes</p>
         </div>
         <div className='flex justify-between bg-slate-100 px-7 py-3 mx-12 rounded-lg'>
           <h2 className='text-lg font-bold'>Break time</h2>
