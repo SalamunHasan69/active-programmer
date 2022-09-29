@@ -5,7 +5,7 @@
     "name": "HTML",
     "definition": "HTML (HyperText Markup Language) is the code that is used to structure a web page and its content.",
     "age": "15-35",
-    "time": "30 Minute"
+    "time": "30"
   },
   {
     "id": "02",
@@ -13,7 +13,7 @@
     "name": "CSS",
     "definition": "Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML.",
     "age": "15-35",
-    "time": "30 Minute"
+    "time": "30"
   },
   {
     "id": "03",
@@ -21,7 +21,7 @@
     "name": "Bootstrap",
     "definition": "Bootstrap is a free, open source front-end development framework for the creation of websites and web apps",
     "age": "15-35",
-    "time": "30 Minute"
+    "time": "30"
   },
   {
     "id": "04",
@@ -29,7 +29,7 @@
     "name": "Tailwind",
     "definition": "Tailwind CSS makes it quicker to write and maintain the code of your application.",
     "age": "15-35",
-    "time": "30 Minute"
+    "time": "30"
   },
   {
     "id": "05",
@@ -37,7 +37,7 @@
     "name": "JavaScript",
     "definition": "JavaScript is a scripting or programming language that allows you to implement complex features on web pages.",
     "age": "15-35",
-    "time": "60 Minute"
+    "time": "60"
   },
   {
     "id": "06",
@@ -45,6 +45,6 @@
     "name": "React",
     "definition": "React is a declarative, efficient, and flexible JavaScript library for building user interfaces.",
     "age": "15-35",
-    "time": "120 Minute"
+    "time": "120"
   }
 ]
