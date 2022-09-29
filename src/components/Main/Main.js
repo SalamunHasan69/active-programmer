@@ -6,6 +6,7 @@ import CardInfo from '../Card-info/CardInfo';
 const Main = () => {
 
   const [cards, setCards] = useState([]);
+  const [totalTime, setTotalTime] = useState(0);
 
   useEffect(() => {
     fetch('data.json')
@@ -13,6 +14,12 @@ const Main = () => {
       .then(data => setCards(data))
   }, []);
 
+
+  const totalTimeHandel = (time) => {
+    const newTotalTime = totalTime + time
+    setTotalTime(newTotalTime);
+    console.log(newTotalTime);
+  }
 
   return (
     <div>
@@ -23,7 +30,7 @@ const Main = () => {
           }
         </div>
         <div className="bg-slate-50 lg:rounded-bl-xl">
-          <CardInfo></CardInfo>
+          <CardInfo totalTimeHandel={totalTimeHandel} totalTime={totalTime}></CardInfo>
         </div>
       </div>
     </div>

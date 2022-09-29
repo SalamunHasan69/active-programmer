@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationPin, } from '@fortawesome/free-solid-svg-icons'
 
 
-const CardInfo = () => {
+const CardInfo = ({ totalTime }) => {
 
   return (
     <div>
@@ -19,15 +19,15 @@ const CardInfo = () => {
       </div>
       <div className='flex justify-around bg-slate-100 p-3 mx-12 rounded-lg'>
         <div className='text-center'>
-          <p>63<sub>Kg</sub></p>
+          <p className='text-lg font-bold'>63<sub>Kg</sub></p>
           <p>Weight</p>
         </div>
         <div className='text-center'>
-          <p>5.7</p>
+          <p className='text-lg font-bold'>5.7</p>
           <p>Height</p>
         </div>
         <div className='text-center'>
-          <p>20<sub>Yrs</sub></p>
+          <p className='text-lg font-bold'>20<sub>Yrs</sub></p>
           <p>Age</p>
         </div>
       </div>
@@ -44,7 +44,7 @@ const CardInfo = () => {
         <h2 className='text-lg font-bold mt-14 mb-6 ml-10'>Practice Details</h2>
         <div className='flex justify-between bg-slate-100 px-7 py-4 mx-12 rounded-lg mb-4'>
           <h2 className='text-lg font-bold'>Practice time</h2>
-          <p className='font-light'> minutes</p>
+          <p className='font-light'>{totalTime} minutes</p>
         </div>
         <div className='flex justify-between bg-slate-100 px-7 py-3 mx-12 rounded-lg'>
           <h2 className='text-lg font-bold'>Break time</h2>
@@ -52,7 +52,7 @@ const CardInfo = () => {
         </div>
       </div>
       <div className=' mt-20 text-center'>
-        <button className="btn btn-primary rounded-lg">Activity Completed</button>
+        <button className="btn btn-primary rounded-lg mb-4">Activity Completed</button>
       </div>
     </div>
   );
