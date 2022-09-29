@@ -27,7 +27,7 @@ const Main = () => {
             cards.map(card => <Card card={card} key={card.id} addToList={addToList}></Card>)
           }
         </div>
-        <div className="bg-slate-50">
+        <div className="bg-slate-50 lg:rounded-bl-xl">
           <CardInfo></CardInfo>
         </div>
       </div>

@@ -1,3 +1,4 @@
+import Blog from './components/Blog/Blog';
 import Main from './components/Main/Main';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         </div>
       </nav>
       <Main></Main>
+      <Blog></Blog>
       <div className="divider"></div>
       <footer className="footer footer-center p-4 bg-primary text-neutral-content">
         <div className="items-center grid-flow-col text-black">
