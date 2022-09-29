@@ -37,7 +37,7 @@
     "name": "JavaScript",
     "definition": "JavaScript is a scripting or programming language that allows you to implement complex features on web pages.",
     "age": "15-35",
-    "time": "1 Hours"
+    "time": "60 Minute"
   },
   {
     "id": "06",
@@ -45,6 +45,6 @@
     "name": "React",
     "definition": "React is a declarative, efficient, and flexible JavaScript library for building user interfaces.",
     "age": "15-35",
-    "time": "2 Hours"
+    "time": "120 Minute"
   }
 ]
