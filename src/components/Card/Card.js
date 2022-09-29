@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = ({ card, addToList }) => {
+const Card = ({ card }) => {
   const { picture, name, definition, age, time } = card;
 
   return (
@@ -16,7 +16,7 @@ const Card = ({ card, addToList }) => {
           <p>Time required: {time}</p>
         </div>
         <div className="flex justify-center my-2">
-          <button onClick={() => addToList(card)} className="btn btn-primary px-20">Add to list</button>
+          <button className="btn btn-primary px-20">Add to list</button>
         </div>
       </div>
     </div>

@@ -1,13 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationPin, } from '@fortawesome/free-solid-svg-icons'
-import { info } from 'daisyui/src/colors';
 
 
-const CardInfo = (props) => {
-  const { details } = props;
-  console.log(details);
-
+const CardInfo = () => {
 
   return (
     <div>
@@ -56,7 +52,7 @@ const CardInfo = (props) => {
         </div>
       </div>
       <div className=' mt-20 text-center'>
-        <button className="btn btn-primary rounded-lg px-36">Activity Completed</button>
+        <button className="btn btn-primary rounded-lg">Activity Completed</button>
       </div>
     </div>
   );
