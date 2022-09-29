@@ -3,9 +3,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationPin, } from '@fortawesome/free-solid-svg-icons'
 import { info } from 'daisyui/src/colors';
 
+
 const CardInfo = (props) => {
-  const { info } = props;
-  console.log(info);
+  const { details } = props;
+  console.log(details);
+
+
   return (
     <div>
       <div className='m-10 flex items-center'>

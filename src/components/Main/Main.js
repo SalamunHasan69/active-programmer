@@ -6,7 +6,7 @@ import CardInfo from '../Card-info/CardInfo';
 const Main = () => {
 
   const [cards, setCards] = useState([]);
-  const [info, setInfo] = useState([]);
+  const [details, setDetails] = useState([]);
 
   useEffect(() => {
     fetch('data.json')
@@ -15,8 +15,8 @@ const Main = () => {
   }, []);
 
   const addToList = (card) => {
-    const updateInfo = [...info, card];
-    setInfo(updateInfo)
+    const updateDetails = [...details, card];
+    setDetails(updateDetails)
   }
 
   return (
