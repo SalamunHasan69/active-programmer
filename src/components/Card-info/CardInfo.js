@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationPin, } from '@fortawesome/free-solid-svg-icons'
 
 
 const CardInfo = ({ totalTime }) => {
+
+  const [breakTime, setBreakTime] = useState();
+
+  const totalBreakTime = (time) => {
+    setBreakTime(time);
+  }
 
   return (
     <div>
@@ -34,21 +40,21 @@ const CardInfo = ({ totalTime }) => {
       <div>
         <h2 className='text-lg font-bold m-10'>Add A Break</h2>
         <div className='flex justify-around bg-slate-100 p-3 mx-12 rounded-lg'>
-          <button className="btn btn-outline btn-primary rounded-full">10M</button>
-          <button className="btn btn-outline btn-primary rounded-full">15M</button>
-          <button className="btn btn-outline btn-primary rounded-full">20M</button>
-          <button className="btn btn-outline btn-primary rounded-full">30M</button>
+          <button onClick={() => totalBreakTime('10')} className="btn btn-outline btn-primary rounded-full">10M</button>
+          <button onClick={() => totalBreakTime('15')} className="btn btn-outline btn-primary rounded-full">15M</button>
+          <button onClick={() => totalBreakTime('20')} className="btn btn-outline btn-primary rounded-full">20M</button>
+          <button onClick={() => totalBreakTime('30')} className="btn btn-outline btn-primary rounded-full">30M</button>
         </div>
       </div>
       <div>
         <h2 className='text-lg font-bold mt-14 mb-6 ml-10'>Practice Details</h2>
         <div className='flex justify-between bg-slate-100 px-7 py-4 mx-12 rounded-lg mb-4'>
           <h2 className='text-lg font-bold'>Practice time</h2>
-          <p className='font-light'>{parseFloat(totalTime)} minutes</p>
+          <p className='font-light'>{totalTime} minutes</p>
         </div>
         <div className='flex justify-between bg-slate-100 px-7 py-3 mx-12 rounded-lg'>
           <h2 className='text-lg font-bold'>Break time</h2>
-          <p className='font-light'>minutes</p>
+          <p className='font-light'>{breakTime} minutes</p>
         </div>
       </div>
       <div className=' mt-20 text-center'>
